@@ -1,4 +1,4 @@
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/anemoi-graphs/anemoi_graphs-{{ version }}.tar.gz
-  sha256: f606fb129cea956a7005354ede2ee1a63f130b7195b72edc3a16b560e25c35b0
+  sha256: 80a45559661e108458a1d85446340f6e9159f73e1700d8f0e392fa4c71d0cbdb
 
 build:
   entry_points:
