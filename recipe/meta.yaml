@@ -1,4 +1,4 @@
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/a/anemoi-graphs/anemoi_graphs-{{ version }}.tar.gz
-  sha256: 73d4c18ac4d250cc1e0fdabeeac0f5ae217ae955d388637cfbf51988e3f099d3
+  url: https://files.pythonhosted.org/packages/source/a/anemoi-graphs/anemoi_graphs-{{ version }}.tar.gz
+  sha256: d00254ebcd4c411b2dc849fd04401d00845192ae20d683a54ba73b0ae3c49e98
 
 build:
   entry_points:
