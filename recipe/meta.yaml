@@ -14,7 +14,7 @@ build:
     - anemoi-graphs = anemoi.graphs.__main__:main
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -29,6 +29,7 @@ requirements:
     - matplotlib-base >=3.6
     - networkx >=3.1
     - numpy >=1.26
+    - packaging >=20
     - plotly >=5.19
     - scikit-learn >=1.5
     - scipy >=1.6
@@ -47,7 +48,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/ecmwf/anemoi-graphs/
+  home: https://github.com/ecmwf/anemoi-core/
   summary: A package to build graphs for data-driven forecasts.
   doc_url: https://anemoi-graphs.readthedocs.io/
   license: Apache-2.0
